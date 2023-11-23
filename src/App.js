@@ -4,7 +4,7 @@ import VeereDiWedding from './components/VeereDiWedding';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App">
       <VeereDiWedding/>
     </div>
   );

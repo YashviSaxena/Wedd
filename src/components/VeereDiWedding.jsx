@@ -1,14 +1,15 @@
 // VeereDiWedding.js
 
 import React from 'react';
-import coupleimg from '../android-chrome-512x512.png';
+import coupleimg from '../bride-groom.png';
 const VeereDiWedding = () => {
   return (
     <div className="flex flex-col h-screen items-center justify-center bg-pink-200">
-      <h1 className='italic'>You're welcomed to the most awaited event of the family!!!</h1>
-      {/* <h1 className="font-bold text-cyan-100 lg:text-6xl md:text-4xl sm:text-2xl italic">Veere Di Wedding Hai</h1> */}
-      <img src={coupleimg} alt="" />
-      <h1 className='italic'>ladkeWaale💞</h1>
+      <h1 className="italic text-2xl text-center sm:text-2xl md:text-4xl lg:text-5xl">
+        You're welcomed to the most awaited event of the family!!!
+      </h1>
+      <img className="w-full max-w-sm md:max-w-md lg:max-w-lg" src={coupleimg} alt="" />
+      <h1 className="italic text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">ladkeWaale💞</h1>
     </div>
   );
 };
